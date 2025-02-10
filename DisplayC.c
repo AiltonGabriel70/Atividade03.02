@@ -20,7 +20,7 @@
 #define NUM_WS2812 25
 #define WS2812_PIN 7
 
-int number = 0; // Variável global para armazenar o número exibido
+
 
 // Função para converter valores RGB em um formato de 32 bits para o LED
 uint32_t urgb_u32(uint8_t r, uint8_t g, uint8_t b) {
@@ -71,7 +71,7 @@ void set_leds_for_char(char character) {
     }
 }
 
-volatile bool botao_A_estado = false;
+volatile bool botao_A_estado = true;
 volatile bool botao_B_estado = false;
 uint32_t last_button_press_time_A = 0;
 uint32_t last_button_press_time_B = 0;
