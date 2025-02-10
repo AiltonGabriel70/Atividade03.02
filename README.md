@@ -1,4 +1,5 @@
 Projeto LED WS2812 e Display SSD1306 com Raspberry Pi Pico
+
 Este projeto utiliza o microcontrolador Raspberry Pi Pico e envolve a manipulação de LEDs WS2812, um display OLED SSD1306, e dois botões para acionar LEDs. O objetivo é exibir a palavra "FLAMENGO" e outros caracteres no display, além de controlar LEDs de diferentes cores. O código também permite interação via UART para receber caracteres e controlar os LEDs.
 
 Componentes Utilizados
